@@ -1,18 +1,18 @@
-## OpenAi
+# OpenAi
 DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,pay.openai.com
-DOMAIN-SUFFIX,chat.openai.com
-DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN,pay.openai.com
+DOMAIN,chat.openai.com
+DOMAIN,challenges.cloudflare.com
 DOMAIN-KEYWORD,openai
 DOMAIN-SUFFIX,auth.com
-DOMAIN-SUFFIX,auth.openai.com
+DOMAIN,auth.openai.com
 DOMAIN-SUFFIX,auth0.com
-DOMAIN-SUFFIX,auth0.openai.com
-DOMAIN-SUFFIX,platform.openai.com
-DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN,auth0.openai.com
+DOMAIN,platform.openai.com
+DOMAIN,challenges.cloudflare.com
 DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,client-api.arkoselabs.com
-DOMAIN-SUFFIX,events.statsigapi.net
+DOMAIN,client-api.arkoselabs.com
+DOMAIN,events.statsigapi.net
 DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,identrust.com
 DOMAIN-SUFFIX,intercom.io
@@ -20,10 +20,9 @@ DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-KEYWORD,cloudflare
 DOMAIN-KEYWORD,github
 DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,googleapis.com
-DOMAIN-SUFFIX,github.com
