@@ -5,7 +5,6 @@ dns:
   - "+.lan"
   - "+.local"
   - geosite:cn
-  - rule-set:cn
   - "+.panyingfa.top"
   - nishub1.10010.com
   - enrichgw.10010.com
