@@ -1,7 +1,11 @@
 dns:
   enable: true
+  fake-ip-filter-mode: blacklist
   fake-ip-filter:
+  - "+.lan"
+  - "+.local"
   - geosite:cn
+  - rule-set:cn
   - "+.panyingfa.top"
   - nishub1.10010.com
   - enrichgw.10010.com
@@ -16,11 +20,12 @@ dns:
   - time7.*.com
   ipv6: false
   enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
+  fake-ip-range: 198.18.*.*/16
   listen: 0.0.0.0:7874
   proxy-server-nameserver:
   - 114.114.114.114
   - 119.29.29.29
+  - 223.5.5.5
   - 8.8.8.8
   - 1.1.1.1
 bind-address: "*"
