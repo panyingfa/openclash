@@ -2,6 +2,18 @@ dns:
   enable: true
   fake-ip-filter:
   - geosite:cn
+  - "+.panyingfa.top"
+  - nishub1.10010.com
+  - enrichgw.10010.com
+  - "*.wosms.cn"
+  - "*.jegotrip.com.cn"
+  - time1.*.com
+  - time2.*.com
+  - time3.*.com
+  - time4.*.com
+  - time5.*.com
+  - time6.*.com
+  - time7.*.com
   ipv6: false
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
