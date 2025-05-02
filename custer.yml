@@ -1,0 +1,15 @@
+dns:
+  enable: true
+  fake-ip-filter:
+  - geosite:cn
+  ipv6: false
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  listen: 0.0.0.0:7874
+  proxy-server-nameserver:
+  - 114.114.114.114
+  - 119.29.29.29
+  - 8.8.8.8
+  - 1.1.1.1
+bind-address: "*"
+external-ui: "/usr/share/openclash/ui"
