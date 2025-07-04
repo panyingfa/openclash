@@ -17,6 +17,7 @@ dns:
   - time5.*.com
   - time6.*.com
   - time7.*.com
+  - "+.*.*"
   ipv6: false
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
