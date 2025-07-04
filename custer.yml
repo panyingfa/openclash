@@ -29,4 +29,3 @@ dns:
   - 8.8.8.8
   - 1.1.1.1
 bind-address: "*"
-external-ui: "/usr/share/openclash/ui"
