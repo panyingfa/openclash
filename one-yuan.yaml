@@ -4,7 +4,7 @@
 # 机场订阅
 proxy-providers:
   Airport1:
-    url: "https://www.yfjc.xyz/api/v1/client/subscribe?token=f3a1d63ec556710a9d88afa47736d150"
+    url: "https://www.yfjc.xyz/api/v1/client/subscribe?token=f3a1d63ec556710a9d88afa47736d150664332"
     type: http
     interval: 86400
     health-check:
