@@ -5,6 +5,8 @@ dns:
   - "+.lan"
   - "+.local"
   - geosite:cn
+  - 'geosite:connectivity-check'
+  - 'geosite:private'
   - "+.panyingfa.top"
   - nishub1.10010.com
   - enrichgw.10010.com
