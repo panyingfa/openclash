@@ -21,6 +21,7 @@ dns:
     - time7.*.com
   ipv6: false
   enhanced-mode: fake-ip
+  respect-rules: true
   fake-ip-range: 198.18.0.1/16
   listen: 0.0.0.0:7874
   proxy-server-nameserver:
@@ -51,3 +52,15 @@ dns:
     - https://dns.twnic.tw/dns-query
     - https://dns.oszx.co/dns-query
 bind-address: "*"
+
+tun:
+  enable: true
+  stack: mixed
+  device: utun
+  dns-hijack:
+  - 127.0.0.1:53
+  endpoint-independent-nat: true
+  auto-route: false
+  auto-detect-interface: false
+  auto-redirect: false
+  strict-route: false
