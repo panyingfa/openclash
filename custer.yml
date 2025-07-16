@@ -1,6 +1,5 @@
 dns:
   enable: true
-  ipv6: false
   fake-ip-filter-mode: blacklist
   fake-ip-filter:
   - "+.lan"
