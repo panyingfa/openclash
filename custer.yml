@@ -2,37 +2,52 @@ dns:
   enable: true
   fake-ip-filter-mode: blacklist
   fake-ip-filter:
-  - "+.lan"
-  - "+.local"
-  - geosite:cn
-  - 'geosite:connectivity-check'
-  - 'geosite:private'
-  - "+.panyingfa.top"
-  - nishub1.10010.com
-  - enrichgw.10010.com
-  - "*.wosms.cn"
-  - "*.jegotrip.com.cn"
-  - time1.*.com
-  - time2.*.com
-  - time3.*.com
-  - time4.*.com
-  - time5.*.com
-  - time6.*.com
-  - time7.*.com
+    - "+.lan"
+    - "+.local"
+    - geosite:cn
+    - 'geosite:connectivity-check'
+    - 'geosite:private'
+    - "+.panyingfa.top"
+    - nishub1.10010.com
+    - enrichgw.10010.com
+    - "*.wosms.cn"
+    - "*.jegotrip.com.cn"
+    - time1.*.com
+    - time2.*.com
+    - time3.*.com
+    - time4.*.com
+    - time5.*.com
+    - time6.*.com
+    - time7.*.com
   ipv6: false
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   listen: 0.0.0.0:7874
   proxy-server-nameserver:
-  - 114.114.114.114
-  - 119.29.29.29
-  - 223.5.5.5
-  - 8.8.8.8
-  - 1.1.1.1
+    - 114.114.114.114
+    - 119.29.29.29
+    - 223.5.5.5
+    - 8.8.8.8
+    - 1.1.1.1
   nameserver-policy:
-  "geosite:cn,private":
-  - https://223.5.5.5/dns-query
+    "geosite:cn,private":
+    - https://223.5.5.5/dns-query
   direct-nameserver:
-  - https://223.5.5.5/dns-query
-  - https://doh.360.cn/dns-query
+    - https://223.5.5.5/dns-query
+    - https://doh.360.cn/dns-query
+  fallback:
+    - tls://dns.quad9.net
+    - tls://dns.google
+    - tls://1.1.1.1
+    - tls://dot.tiar.app
+    - https://dns.quad9.net/dns-query
+    - https://dns.google/dns-query
+    - https://dns.cloudflare.com/dns-query
+    - https://1.1.1.1/dns-query
+    - https://public.dns.iij.jp/dns-query
+    - https://jp.tiar.app/dns-query
+    - https://jp.tiarap.org/dns-query
+    - https://doh.dnslify.com/dns-query
+    - https://dns.twnic.tw/dns-query
+    - https://dns.oszx.co/dns-query
 bind-address: "*"
