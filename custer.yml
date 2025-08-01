@@ -8,6 +8,7 @@ dns:
     - 'geosite:connectivity-check'
     - 'geosite:private'
     - "+.panyingfa.top"
+    - "+.gdnorda.com"
     - nishub1.10010.com
     - enrichgw.10010.com
     - "*.wosms.cn"
