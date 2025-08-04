@@ -66,10 +66,9 @@ tun:
   enable: true
   stack: mixed
   device: utun
+  auto-route: true
+  auto-redirect: true
+  auto-detect-interface: true
   dns-hijack:
-  - 127.0.0.1:53
-  endpoint-independent-nat: true
-  auto-route: false
-  auto-detect-interface: false
-  auto-redirect: false
-  strict-route: false
+    - any:53
+    - tcp://any:53
