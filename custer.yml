@@ -68,7 +68,7 @@ tun:
   enable: true
   stack: mixed
   auto-route: true
-  auto-redirect: true
+  auto-redirect: flase
   auto-detect-interface: true
   strict-route: true
   endpoint-independent-nat: false
