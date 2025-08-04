@@ -1,3 +1,5 @@
+mixed-port: 7890
+allow-lan: true
 dns:
   enable: true
   fake-ip-filter-mode: blacklist
