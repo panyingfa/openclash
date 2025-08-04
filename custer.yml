@@ -67,10 +67,12 @@ bind-address: "*"
 tun:
   enable: true
   stack: mixed
-  device: utun
   auto-route: true
   auto-redirect: true
   auto-detect-interface: true
+  strict-route: true
+  endpoint-independent-nat: false
   dns-hijack:
     - any:53
     - tcp://any:53
+
