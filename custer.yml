@@ -32,14 +32,19 @@ dns:
   nameserver:
     - 10.33.1.253#disable-ipv6=true
     - https://223.5.5.5/dns-query#disable-ipv6=true
+    - https://223.6.6.6/dns-query#disable-ipv6=true
+    - https://doh.360.cn/dns-query#disable-ipv6=true
   proxy-server-nameserver:
     - 119.29.29.29
     - 223.5.5.5
   nameserver-policy:
     "geosite:cn,private":
     - https://223.5.5.5/dns-query#disable-ipv6=true
+    - https://223.6.6.6/dns-query#disable-ipv6=true
+    - https://doh.360.cn/dns-query#disable-ipv6=true
   direct-nameserver:
     - https://223.5.5.5/dns-query#disable-ipv6=true
+    - https://223.6.6.6/dns-query#disable-ipv6=true
     - https://doh.360.cn/dns-query#disable-ipv6=true
   fallback:
     - tls://dns.quad9.net#disable-ipv6=true
@@ -72,4 +77,3 @@ tun:
   dns-hijack:
     - any:53
     - tcp://any:53
-
