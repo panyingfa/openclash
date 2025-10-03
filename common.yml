@@ -3,6 +3,7 @@ dns:
   enable: true
   fake-ip-filter-mode: blacklist
   fake-ip-filter:
+    - "+.*.*"
     - "+.lan"
     - "+.local"
     - geosite:cn
