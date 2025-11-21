@@ -51,3 +51,28 @@ DOMAIN,challenges.cloudflare.com
 DOMAIN,client-api.arkoselabs.com
 DOMAIN,events.statsigapi.net
 DOMAIN,openaiapi-site.azureedge.net
+
+# 精确域名（full: 开头的）
+DOMAIN,ai.google.dev
+DOMAIN,alkalicore-pa.clients6.google.com
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+
+# 指定完整主机名（Google Generative Language / backend）
+DOMAIN,geller-pa.googleapis.com
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN,proactivebackend-pa.googleapis.com
+
+# Google AI / Studio / Bard / Gemini / DeepMind 等域名后缀
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,google.com   
+# 可选：如果你想把所有 google.com 的流量走代理，保留，否则删除或注释
+
+# 关键词匹配（捕捉像 google-deepmind、google-deepmind 的变体）
+DOMAIN-KEYWORD,google-deepmind
+DOMAIN-KEYWORD,deepmind
