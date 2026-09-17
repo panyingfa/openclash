@@ -12,8 +12,6 @@ dns:
     - "+.panyingfa.top"
     - "+.gdnorda.com"
     - "+.googleapis.cn"
-    - "*xn--ngstr-lra8j.com"
-    - "*--ngstr-lra8j.com"
     - nishub1.10010.com
     - enrichgw.10010.com
     - "*.wosms.cn"
